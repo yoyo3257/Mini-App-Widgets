@@ -1,17 +1,36 @@
-# widget_explor
 
-A new Flutter project.
+# **📚 Flutter Widget Explorer: Categories**
 
-## Getting Started
+This project serves as a hands-on, categorized reference for key Flutter widgets. It aims to practice working with different Flutter widgets and see core widgets in action, organized logically by their primary function (e.g., Layout, Animation, Accessibility).
 
-This project is a starting point for a Flutter application.
+## **✨ Current Features**
 
-A few resources to get you started if this is your first Flutter project:
+The application is structured around major Flutter widget categories. The following categories are currently implemented and fully functional:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **1\. Animation and Motion Widgets**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Mini-App-Widgets" 
+A collection of demos showcasing implicit animations, which are easy to use for smooth visual transitions.
+
+* **AnimatedAlign**: Demonstrating smooth movement of a child widget within a container.  
+* **AnimatedContainer**: Changing size, color, and alignment properties over a duration.  
+* **AnimatedCrossFade**: Smoothly transitioning between two distinct widgets (e.g., icons).  
+* **AnimatedDefaultTextStyle**: Applying changes in text style (color, size, weight) with animation.
+
+### **2\. Accessibility Widgets**
+
+Focuses on widgets that improve the experience for users leveraging screen readers (like TalkBack or VoiceOver).
+
+* **Semantics**: Example demonstrating how to add descriptive labels and hints to non-text widgets (like images) for accessibility tools.
+
+
+## **⏳ Coming Soon**
+
+I am actively working on populating the remaining categories to complete the comprehensive widget explorer:
+
+* Async widgets  
+* Input widgets and RichText  
+* Interaction model widgets  
+* Layout widgets  
+* Painting and effect widgets  
+* Scrolling widgets  
+* Text widgets
